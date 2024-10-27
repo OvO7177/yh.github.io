@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yy论坛</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        .post {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .form-container {
+            margin-top: 20px;
+            background: #fff;
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            background: #5cb85c;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>欢迎来到yy论坛</h1>
+
+    <div class="post">
+        <h2>帖子标题 1</h2>
+        <p>这是第一个帖子的内容。欢迎大家讨论！</p>
+    </div>
+
+    <div class="post">
+        <h2>帖子标题 2</h2>
+        <p>这是第二个帖子的内容。分享你的想法！</p>
+    </div>
+
+    <div class="form-container">
+        <h2>发帖</h2>
+        <form action="#" method="post">
+            <input type="text" name="title" placeholder="帖子标题" required>
+            <textarea name="content" rows="5" placeholder="帖子内容" required></textarea>
+            <input type="submit" value="发布帖子">
+        </form>
+    </div>
+
+</body>
+</html>
